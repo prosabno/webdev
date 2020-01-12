@@ -1,0 +1,36 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+    //text-transform: uppercase;
+}
+
+.drop{
+    padding:150px;
+    background:linear-gradient(45deg,red,blue);
+    width:95%;
+    margin:0px auto;
+    color:white
+}
+@media(max-width:600px){
+    .drop:before, .drop:after{
+        content: "";
+        display: block;
+        position:absolute;
+        width:50%;
+        height:30px;
+        top:47px;
+        background:#111111;
+        left:3%;
+        z-index:-1;
+        transform:rotate(-10deg);
+        filter:blur(10px);
+    }
+    .drop:after{
+        right:3%;
+        left:auto;
+        transform:rotate(10deg)
+    }
+    }

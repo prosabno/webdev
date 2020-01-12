@@ -1,0 +1,13 @@
+$baseColor : red;
+
+@mixin pro{
+	
+	color : white;
+	background : $baseColor;
+}
+
+
+
+body{
+		@include pro;
+	}

@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    
+}
+.container{
+    background: red;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    background:purple;
+    padding:20px;
+    max-width: 300px;
+    color:white;
+    margin-left: 40px;;}
+.container a:hover{
+
+    background: rgb(245, 142, 142);
+}
+.container ul{
+    margin-right:100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.container a{
+    padding:20px;
+    background: yellow;
+    font-weight: bold;
+}
